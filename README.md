@@ -55,6 +55,12 @@ The namespace exposes the following functions:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`unary( table )`][@stdlib/math/tools/unary]</span><span class="delimiter">: </span><span class="description">multiple dispatch for unary mathematical functions.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -136,6 +142,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-tools/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/tools/unary]: https://github.com/stdlib-js/math-tools-unary
 
 <!-- </toc-links> -->
 
