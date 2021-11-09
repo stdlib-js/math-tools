@@ -69,7 +69,7 @@ interface Namespace {
 }
 
 /**
-* Standard library math tools.
+* Math tools.
 */
 declare var ns: Namespace;
 
