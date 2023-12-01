@@ -52,7 +52,7 @@
     "@stdlib/assert-is-null": "^0.1.1",
     "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",
