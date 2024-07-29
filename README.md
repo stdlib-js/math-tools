@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-tools@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-tools@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { unary } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-tools@esm/index.mjs';
+import { unary } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-tools@v0.2.2-esm/index.mjs';
 ```
 
 #### ns
@@ -91,7 +91,7 @@ The namespace exposes the following functions:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-tools@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-tools@v0.2.2-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
