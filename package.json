@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-tools-unary": "^0.2.1",
+    "@stdlib/math-tools-unary": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -63,10 +63,10 @@
     "@stdlib/ndarray-base-numel": "^0.2.2",
     "@stdlib/ndarray-base-shape2strides": "^0.2.2",
     "@stdlib/ndarray-base-unary": "^0.2.1",
-    "@stdlib/ndarray-ctor": "^0.2.1",
+    "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-dispatch": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
-    "@stdlib/ndarray-ind2sub": "^0.2.1",
+    "@stdlib/ndarray-ind2sub": "^0.2.2",
     "@stdlib/ndarray-orders": "^0.2.2",
     "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/string-format": "^0.2.2",
