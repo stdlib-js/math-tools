@@ -4,7 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-09-29)
+
+<section class="features">
+
+### Features
+
+-   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - update `math/tools` TypeScript declarations
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`fe25ba3`](https://github.com/stdlib-js/stdlib/commit/fe25ba3ab6e5def2aa99901b2e53cbe45a76e284): remove support for non-ndarray arguments
+
+    -   To migrate, users will need to create higher-level wrappers which
+        perform argument dispatch.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="commits">
 
@@ -12,6 +35,16 @@
 
 <details>
 
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
+-   [`d4d8f9a`](https://github.com/stdlib-js/stdlib/commit/d4d8f9a8d24281e9a3988f869096acad8c244bc3) - **feat:** update `math/tools` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`10beb0d`](https://github.com/stdlib-js/stdlib/commit/10beb0df73f0a3e2ac0f65c0549a12449984f73e) - **docs:** update type _(by Athan Reines)_
+-   [`bac2f1a`](https://github.com/stdlib-js/stdlib/commit/bac2f1af6007402efe470fffaf6a4c37645a3e28) - **docs:** fix comments _(by Athan Reines)_
+-   [`a657481`](https://github.com/stdlib-js/stdlib/commit/a657481f37f58ef7158aff3363a9ce1819766d7a) - **docs:** add missing 'that' in comment _(by Philipp Burckhardt)_
+-   [`1b46342`](https://github.com/stdlib-js/stdlib/commit/1b46342c2fcca2033b3736740d77ab42902a3483) - **docs:** add copy _(by Athan Reines)_
+-   [`fe25ba3`](https://github.com/stdlib-js/stdlib/commit/fe25ba3ab6e5def2aa99901b2e53cbe45a76e284) - **refactor:** remove support for non-ndarray arguments _(by Athan Reines)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`153c9c1`](https://github.com/stdlib-js/stdlib/commit/153c9c19e7e5bc138e18500cea598365d6df55d8) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`d6dc223`](https://github.com/stdlib-js/stdlib/commit/d6dc22378d29ed84b887fefbec6301f77cbf808b) - **refactor:** use base array assertion utility _(by Athan Reines)_
 
 </details>
@@ -24,9 +57,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
