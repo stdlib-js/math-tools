@@ -77,7 +77,7 @@
     "@stdlib/ndarray-zeros-like": "^0.3.0",
     "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-uniform": "github:stdlib-js/random-uniform#main",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
