@@ -3,30 +3,8 @@
   "version": "0.2.2",
   "description": "Math tools.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "type": "module",
+  "main": "./index.mjs",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -35,71 +13,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/math-tools-unary": "^0.2.2",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
-  },
-  "devDependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/array-base-every-by": "^0.2.2",
-    "@stdlib/array-base-join": "^0.1.1",
-    "@stdlib/array-zeros": "^0.2.2",
-    "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-is-collection": "^0.2.2",
-    "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/assert-is-ndarray-like": "^0.2.2",
-    "@stdlib/assert-is-object": "^0.2.2",
-    "@stdlib/assert-is-plain-object": "^0.2.2",
-    "@stdlib/math-base-assert-is-nan": "^0.2.2",
-    "@stdlib/math-base-special-abs": "^0.2.2",
-    "@stdlib/math-base-special-absf": "^0.2.2",
-    "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.2.2",
-    "@stdlib/ndarray-base-assert-is-input-casting-policy": "github:stdlib-js/ndarray-base-assert-is-input-casting-policy#main",
-    "@stdlib/ndarray-base-assert-is-order": "^0.2.2",
-    "@stdlib/ndarray-base-assert-is-output-data-type-policy": "github:stdlib-js/ndarray-base-assert-is-output-data-type-policy#main",
-    "@stdlib/ndarray-base-assign": "^0.1.1",
-    "@stdlib/ndarray-base-empty": "^0.3.0",
-    "@stdlib/ndarray-base-unary": "^0.2.1",
-    "@stdlib/ndarray-base-unary-input-casting-dtype": "github:stdlib-js/ndarray-base-unary-input-casting-dtype#main",
-    "@stdlib/ndarray-base-unary-output-dtype": "^0.2.2",
-    "@stdlib/ndarray-ctor": "^0.2.2",
-    "@stdlib/ndarray-data-buffer": "^0.2.2",
-    "@stdlib/ndarray-dispatch": "^0.2.2",
-    "@stdlib/ndarray-dtype": "^0.2.2",
-    "@stdlib/ndarray-empty": "^0.3.0",
-    "@stdlib/ndarray-maybe-broadcast-array": "^0.2.2",
-    "@stdlib/ndarray-order": "^0.2.2",
-    "@stdlib/ndarray-orders": "^0.2.2",
-    "@stdlib/ndarray-shape": "^0.2.2",
-    "@stdlib/ndarray-to-array": "^0.2.1",
-    "@stdlib/ndarray-zeros": "^0.3.0",
-    "@stdlib/ndarray-zeros-like": "^0.3.0",
-    "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/random-uniform": "github:stdlib-js/random-uniform#main",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
-    "@stdlib/utils-keys": "^0.2.2",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdmath",
