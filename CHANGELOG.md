@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8318891`](https://github.com/stdlib-js/stdlib/commit/8318891b30c2a8f2649e386f2abba4d064111c54) - **docs:** improve doctest for ndarray instances in `math/tools/unary` [(#10470)](https://github.com/stdlib-js/stdlib/pull/10470) _(by AyushiJain18270)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   AyushiJain18270
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
