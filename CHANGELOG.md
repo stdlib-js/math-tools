@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-22)
+## Unreleased (2026-07-02)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`18365d7`](https://github.com/stdlib-js/stdlib/commit/18365d785c8196ce502c8f44d5d0ab55633beab1) - **fix:** separate import and JSDoc comment in `math/tools/unary` types [(#12459)](https://github.com/stdlib-js/stdlib/pull/12459) _(by Philipp Burckhardt)_
 -   [`8318891`](https://github.com/stdlib-js/stdlib/commit/8318891b30c2a8f2649e386f2abba4d064111c54) - **docs:** improve doctest for ndarray instances in `math/tools/unary` [(#10470)](https://github.com/stdlib-js/stdlib/pull/10470) _(by AyushiJain18270)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   AyushiJain18270
+-   Philipp Burckhardt
 
 </section>
 
